@@ -651,9 +651,9 @@ label{
 @media (max-width:600px){
 
   .about_main{
-    padding-bottom: 0;
+      padding-bottom: 0;
     }
-  }
+
   .container{
     padding: 40px 0;
   }
@@ -730,7 +730,7 @@ label{
 
   .footer_container{
     padding-top: 25px;
-    justify-content: center;
+    justify-content: space-between;
   }
 
 }
