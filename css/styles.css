@@ -128,7 +128,6 @@ body{
 
 .about{
   text-align: center;
-  padding: 0;
 }
 
 .subtitle{
@@ -342,6 +341,7 @@ body{
 
 .questions_offer{
   padding-top: 40px;
+  justify-items: center;
 }
 
 .footer{
@@ -650,6 +650,10 @@ label{
 
 @media (max-width:600px){
 
+  .about_main{
+    padding-bottom: 0;
+    }
+  }
   .container{
     padding: 40px 0;
   }
