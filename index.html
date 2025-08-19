@@ -217,26 +217,28 @@
             </nav>
 
             <form action="https://formsubmit.co/dmaguayvida@gmail.com" method="POST" class="footer_form" id="inscription">
-                <h2 class="footer_newsletter">Inscribete ahora!</h2>
-                <div class="footer_inputs">
-                    <label for="name">Nombres y Apellidos</label>
-                    <input name="Nombres" type="text" class="nombres">
-                    <label for="phone">Numero de telefono</label>
-                    <input name="Telefono" type="tel" class="telefono">
-                    <label for="email">Correo electrónico</label>
-                    <input name="Correo electronico" type="email" placeholder="Email" class="footer_input">
-                    <input type="submit" value="Registrate" class="footer_submit">
+    <h2 class="footer_newsletter">Inscribete ahora!</h2>
+    <div class="footer_inputs">
+        <label for="nombres">Nombres y Apellidos</label>
+        <input name="Nombres" type="text" class="nombres" id="nombres" required>
+        
+        <label for="telefono">Numero de telefono</label>
+        <input name="Telefono" type="tel" class="telefono" id="telefono" required>
+        
+        <label for="email">Correo electrónico</label>
+        <input name="Correo_electronico" type="email" placeholder="Email" class="footer_input" id="email" required>
+        
+        <input type="submit" value="Registrate" class="footer_submit">
 
+        <!-- Campos de configuración corregidos -->
+        <input type="hidden" name="_next" value="https://fundaciondmaguayvida.org/gracias.html">
+        <input type="hidden" name="_captcha" value="true">
+        <input type="hidden" name="_subject" value="Nueva inscripción - Fundación DM Agua y Vida">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_autoresponse" value="¡Gracias por inscribirte! Nos contactaremos contigo pronto para más información sobre nuestros programas.">
+    </div>
+</form>
 
-                    <input type="hidden" name="_next" value="fundaciondmaguayvida.org" >
-                    <input type="hidden" name="_captcha" value="false">
-                    <input type="hidden" name="_subject" value="Nuevo mensaje desde mi sitio web">
-                    <input type="hidden" name="_template" value="table">
-                    <input type="hidden" name="_autoresponse" value="Gracias por contactarnos. Te responderemos pronto.">
-
-
-                </div>
-            </form>
         </section>
 
         <section class="footer_copy container">
