@@ -226,16 +226,38 @@
         <input name="Telefono" type="tel" class="telefono" id="telefono" required>
         
         <label for="email">Correo electrónico</label>
-        <input name="Correo_electronico" type="email" placeholder="Email" class="footer_input" id="email" required>
+        <input name="email" type="email" placeholder="Email" class="footer_input" id="email" required>
         
         <input type="submit" value="Registrate" class="footer_submit">
 
-        <!-- Campos de configuración corregidos -->
+        <!-- Configuración para correo de confirmación -->
         <input type="hidden" name="_next" value="https://fundaciondmaguayvida.org/gracias.html">
         <input type="hidden" name="_captcha" value="false">
         <input type="hidden" name="_subject" value="Nueva inscripción - Fundación DM Agua y Vida">
         <input type="hidden" name="_template" value="table">
-        <input type="hidden" name="_autoresponse" value="¡Gracias por inscribirte! Nos contactaremos contigo pronto para más información sobre nuestros programas.">
+        
+        <!-- CORREO DE CONFIRMACIÓN AUTOMÁTICO -->
+        <input type="hidden" name="_autoresponse" value="¡Hola! 
+
+Gracias por inscribirte en la Fundación DM Agua y Vida. 
+
+✅ Hemos recibido tu información correctamente:
+- Tu inscripción ha sido procesada exitosamente
+- Nuestro equipo revisará tu información en las próximas 24-48 horas
+- Te contactaremos pronto para brindarte más detalles sobre nuestros programas
+
+📚 Nuestros programas incluyen:
+• Logística de Transporte Ferroviario
+• Gestión Ambiental
+• Economía Solidaria  
+• Salud Pública
+
+Si tienes alguna pregunta urgente, puedes contactarnos directamente a dmaguayvida@gmail.com
+
+¡Gracias por confiar en nosotros para tu formación profesional!
+
+Fundación DM Agua y Vida
+'Construyendo Caminos hacia un Futuro Sostenible'">
     </div>
 </form>
 
